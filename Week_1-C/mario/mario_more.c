@@ -1,14 +1,29 @@
 /**
+ * mario_more.c -> Pyramid hashtag program
+ * Creation:       January 07, 2025
  * 
+ * Purpose: Prompts the user for desired height of a pyramid
+ *          to be printed in terminal with hashtags.
+ * 
+ * Usage: ./mario
+ * 
+ * Output: 
+ *         Height: 4
+ *            #  #
+ *           ##  ##
+ *          ###  ###
+ *         ####  ####
  */
 
 #include <stdio.h>
-#include <cs50.h>
+// #include <cs50.h>
 
-// Prompt the user for the height of the pyramid
+
 int main(void)
-{
+{   
+    // Prompt user for height
     int height;
+    // Remove commented code for added height limits
     // while (height < 1 || height > 8)
     // {
         printf("Height: ");
