@@ -6,6 +6,8 @@
  *          then calculate the winner of who has the most
  *          votes.
  * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/3/runoff/
+ * 
  * Note:    Include in command-line argument the names of
  *          the candidates.
  * 

@@ -6,6 +6,8 @@
  *          determine the approximate grade level of
  *          the reading comprehension of the text.
  * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/2/readability/
+ * 
  * Usage: ./readability
  * 
  * Output: 

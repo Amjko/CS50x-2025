@@ -6,6 +6,8 @@
  *          in which to determine if it's a valid credit
  *          card number and if what type.
  * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/1/credit/
+ * 
  * Usage: ./credit_more.c
  * 
  * Output: 

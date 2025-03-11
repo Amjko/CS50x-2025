@@ -7,6 +7,8 @@
  *          (calculated via letters corresponding
  *          random amount of points) wins.
  * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/2/scrabble/
+ * 
  * Usage: ./scrabble
  * 
  * Output: 

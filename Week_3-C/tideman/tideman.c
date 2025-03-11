@@ -1,3 +1,36 @@
+/**
+ * tideman.c -> Determine winner of candidacy
+ * Creation:    January 12, 2025
+ * 
+ * Purpose: Prompts the user for names of running candidates
+ *          then calculate the winner of who has the most
+ *          votes.
+ * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/3/tideman/
+ * 
+ * Note:    Include in command-line argument the names of
+ *          the candidates.
+ * 
+ * Usage: ./tideman name1 name2 name3
+ * 
+ * Output: 
+ *         ./tideman Alice Bob Charlie 
+ *         Number of voters: 3
+ *         Rank 1: Alice
+ *         Rank 2: Bob
+ *         Rank 3: Charlie
+ * 
+ *         Rank 1: Bob
+ *         Rank 2: Charlie
+ *         Rank 3: Alice
+ * 
+ *         Rank 1: Alice
+ *         Rank 2: Bob
+ *         Rank 3: Charlie
+ * 
+ *         Alice
+ */
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -68,7 +101,7 @@ int main(int argc, string argv[])
     }
 
     pair_count = 0;
-    int voter_count = get_int("Number of voters: ");
+    int voter_count = get_int("Number of voters: ");        // cs50.h function
 
     // Query for votes
     for (int i = 0; i < voter_count; i++)
@@ -79,7 +112,7 @@ int main(int argc, string argv[])
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
-            string name = get_string("Rank %i: ", j + 1);
+            string name = get_string("Rank %i: ", j + 1);   // cs50.h function
 
             if (!vote(j, name, ranks))
             {

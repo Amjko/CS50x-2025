@@ -5,6 +5,8 @@
  * Purpose: Prompts the user for desired height of a pyramid
  *          to be printed in terminal with hashtags.
  * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/1/mario/more/
+ * 
  * Usage: ./mario
  * 
  * Output: 
