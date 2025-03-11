@@ -1,5 +1,20 @@
-//* Prompt two players for a word. There corresponds different amount of point for individual letters.
-//* The player with most points wins
+/**
+ * scrabble.c -> Game of scrabble
+ * Creation:    January 07, 2025
+ * 
+ * Purpose: Query # number of users for words
+ *          wherein the user with most points
+ *          (calculated via letters corresponding
+ *          random amount of points) wins.
+ * 
+ * Usage: ./scrabble
+ * 
+ * Output: 
+ *         Player 1: red
+ *         Player 2: wheelbarrow
+ *         Player 2 wins!
+ */
+
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -27,7 +42,7 @@ int main(void)
     // Loop to prompt each player
     for (int i = 0; i < N; i++)
     {
-        player[i] = get_string("Player %i: ", i + 1);
+        player[i] = get_string("Player %i: ", i + 1);   // cs50.h function
     }
 
     //* Determine each player's score
