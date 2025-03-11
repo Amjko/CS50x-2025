@@ -9,7 +9,7 @@
 ## ⚠️ Disclaimer 
  I do not take credit of all files and its code within directories of `Week_#-Language`. Most of all of the files came from `Problem Sets` provided by **CS50x 2025** for the purpose of the enrolled students to complete the code, following a set of instructions.
 
- Moreover, if you are an enrolled student at **CS50x 2025** and not yet have finished the course, **DO NOT** open directories of `Week_#-Language`, for these contains files that have completed the problem sets provided by CS50x.
+ Moreover, if you are an enrolled student at **CS50x 2025** and not yet have finished the course, **DO NOT** open directories of `Week_#-Language`, for these contain files that have completed the problem sets provided by CS50x.
 
  More on 🔗[CS50x 2023 Academic Honesty](https://cs50.harvard.edu/x/2023/honesty/).
 
