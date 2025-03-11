@@ -2,12 +2,14 @@
 /**
  * recover.c -> JPEG Recovery Tool
  * Version:     1.1
- * Created:     February 05, 2025
+ * Creation:    January 29, 2025
  *
  * Creator:     Amjko
  *
  * Purpose: Recovers deleted JPEG files from a camera's memory card
  *          by scanning for JPEG signatures in the raw data.
+ * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/4/recover/
  *
  * Familiarized used terms in comments:
  * BLOCK -> 512B FAT file system of cameras' memory card.
