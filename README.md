@@ -7,7 +7,7 @@
  - [Installation](#-installation)
 
 ## 📌 About
- My solutions and projects from **CS50x 2025 – Harvard's Introduction to Computer Science.** Includes problem sets, final projects, and coding exercises mostly in C, Python, SQLite, and more.
+ My solutions and projects from **CS50x 2025 – Harvard's Introduction to Computer Science.** Includes problem sets, final projects, and coding exercises mostly in C, Python, SQLite, and more. 
 
 ## CS50x 2025
  [**CS50x**](https://cs50.harvard.edu/x/2025/) is Harvard University’s Introduction to Computer Science, a free online course available on [**edX**](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science). It is designed for beginners with no prior coding experience and covers fundamental programming and computer science concepts.
@@ -26,13 +26,15 @@
  More on 🔗[CS50x 2023 Academic Honesty](https://cs50.harvard.edu/x/2023/honesty/).
 
 ## 📝 Note
-1. All folders with the name `Tests` either consist of (or consist of multiple):
+All folders with the name `Tests` either consist of (or consist of multiple):
   - Files for testing code.
   - Failures to solve problem set provided by CS50.
   - Notes related to solving problem set.
   - Notes related to introduced concept/code/syntax by CS50 related to that week's programming language.
-2. Many, if not, all of the C files do not work due to the inclusion of CS50 header, which is not a standard library provided by C compiler.
-3. I will not accept any requests in updating C files, unless I feel like improving the code.
+  
+Many, if not, all of the C files do not work due to the inclusion of CS50 header, which is not a standard library provided by C compiler.
+
+I will not accept any requests in updating C files, unless I feel like improving the code.
 
 ## 💾 Installation  
 Clone this repo:  
