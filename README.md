@@ -6,6 +6,13 @@
 - Solutions to Problem Sets
 - Learning Notes
 
+## Note
+> All folders with the name `Tests` either consist of (or consist of multiple):
+> 1. Files for testing code.
+> 2. Failures to solve problem set provided by CS50.
+> 3. Notes related to solving problem set.
+> 4. Notes related to introduced concept/code/syntax by CS50 related to that week's programming language.
+
 ## Installation
 Clone this repo:  
 ```sh
