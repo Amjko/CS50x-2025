@@ -26,13 +26,13 @@
  More on 🔗[CS50x 2023 Academic Honesty](https://cs50.harvard.edu/x/2023/honesty/).
 
 ## 📝 Note
-> 1. All folders with the name `Tests` either consist of (or consist of multiple):
-> - Files for testing code.
-> - Failures to solve problem set provided by CS50.
-> - Notes related to solving problem set.
-> - Notes related to introduced concept/code/syntax by CS50 related to that week's programming language.
-> 2. Many, if not, all of the C files do not work due to the inclusion of CS50 header, which is not a standard library provided by C compiler.
-> 3. I will not accept any requests in updating C files, unless I feel like improving the code.
+1. All folders with the name `Tests` either consist of (or consist of multiple):
+  - Files for testing code.
+  - Failures to solve problem set provided by CS50.
+  - Notes related to solving problem set.
+  - Notes related to introduced concept/code/syntax by CS50 related to that week's programming language.
+2. Many, if not, all of the C files do not work due to the inclusion of CS50 header, which is not a standard library provided by C compiler.
+3. I will not accept any requests in updating C files, unless I feel like improving the code.
 
 ## 💾 Installation  
 Clone this repo:  
