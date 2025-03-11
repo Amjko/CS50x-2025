@@ -1,5 +1,21 @@
-//* Include in command the key for caesar shift
-//* Prompt user for the message to encrypt
+/**
+ * caesar.c -> Encrypt text with caesar cypher
+ * Creation:   January 05, 2025
+ * 
+ * Purpose: Prompts the user for sequence of characters
+ *          to encrypt via caesar cypher with <key> amount
+ *          of shifts in the letters.
+ * 
+ * Note:    Include in command the key for caesar shift.
+ * 
+ * Usage: ./caesar key
+ * 
+ * Output: 
+ *         ./caesar 13
+ *         plaintext:  Hi there!
+ *         ciphertext: Uv gurer! 
+ */
+
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -34,7 +50,7 @@ int main(int argc, char *argv[])
     key = atoi(argv[1]);
 
     // Prompt user for plaintext
-    char *text = get_string("plaintext: ");
+    char *text = get_string("plaintext: ");     // cs50.h function
     char *cipher_text = text;
 
     //* Shift letters according to key
