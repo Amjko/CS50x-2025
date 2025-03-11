@@ -1,5 +1,23 @@
+/**
+ * credit_more.c -> Determine credit card type
+ * Creation:       January 03, 2025
+ * 
+ * Purpose: Prompts the user for sequence of numeric text
+ *          in which to determine if it's a valid credit
+ *          card number and if what type.
+ * 
+ * Usage: ./credit_more.c
+ * 
+ * Output: 
+ *         Number: 4003-6000-0000-0014
+ *         Number: foo
+ *         Number: 4003600000000014
+ *         VISA
+ */
+
+#include <stdbool.h>
 #include <stdio.h>
-#include <cs50.h>
+// #include <cs50.h>
 
 int main(void)
 {
