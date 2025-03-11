@@ -1,4 +1,16 @@
-// Simulate genetic inheritance of blood type
+/**
+ * inheritance.c -> Simulate genetic inheritance of blood type
+ * Creation:        February 07, 2025
+ * 
+ * Purpose: Provide a diagram example of inherited blood type
+ *          passed down from ancestors to children.
+ * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/5/inheritance/
+ * 
+ * 
+ * Usage: ./inheritance
+ */
+
 #define _DEFAULT_SOURCE
 #include <stdbool.h>
 #include <stdio.h>
