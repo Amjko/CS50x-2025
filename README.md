@@ -1,5 +1,6 @@
 ## 📃 Table of Contents
- -[About](#-about)
+ - [About](#-about)
+ - [CS50x](#-CS50x-2025)
 
 ## 📌 About
  My solutions and projects from [**CS50x 2025 – Harvard's Introduction to Computer Science.**](https://cs50.harvard.edu/x/2025/) Includes problem sets, final projects, and coding exercises mostly in C, Python, SQLite, and more.
