@@ -1,3 +1,34 @@
+/**
+ * runoff.c -> Determine winner of candidacy
+ * Creation:   January 10, 2025
+ * 
+ * Purpose: Prompts the user for names of running candidates
+ *          then calculate the winner of who has the most
+ *          votes.
+ * 
+ * Note:    Include in command-line argument the names of
+ *          the candidates.
+ * 
+ * Usage: ./runoff name1 name2 name3
+ * 
+ * Output: 
+ *         ./runoff Alice Bob Charlie 
+ *         Number of voters: 3
+ *         Rank 1: Alice
+ *         Rank 2: Bob
+ *         Rank 3: Charlie
+ * 
+ *         Rank 1: Bob
+ *         Rank 2: Alice
+ *         Rank 3: Charlie
+ * 
+ *         Rank 1: Alice
+ *         Rank 2: Bob
+ *         Rank 3: Charlie
+ * 
+ *         Alice
+ */
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -55,7 +86,7 @@ int main(int argc, string argv[])
         candidates[i].eliminated = false;
     }
 
-    voter_count = get_int("Number of voters: ");
+    voter_count = get_int("Number of voters: ");                // cs50.h function
     if (voter_count > MAX_VOTERS)
     {
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
@@ -69,7 +100,7 @@ int main(int argc, string argv[])
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
-            string name = get_string("Rank %i: ", j + 1);
+            string name = get_string("Rank %i: ", j + 1);       // cs50.h function
 
             // Record vote, unless it's invalid
             if (!vote(i, j, name))
