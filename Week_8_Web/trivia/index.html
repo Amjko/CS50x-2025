@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section" question="1">
+                <h2>Part 1: Multiple Choice</h2>
+                <hr>
+                 <h3>What is the only metal that is liquid at room temperature?</h3>
+                 <button class="option" question="1">Gallium</button>
+                 <button class="option" question="1" id="answer_1">Mercury</button>
+                 <button class="option" question="1">Bromine</button>
+                 <button class="option" question="1">Cesium</button>
+                 <p class="check_answer" question="1"></p>
+            </div>
+
+            <div class="section" question="2">
+                <h2>Part 2: Multiple Choice</h2>
+                <hr>
+                 <h3>Which U.S. president served the shortest time in office before passing away?</h3>
+                 <button class="option" question="2" id="answer_2">William Henry Harrison</button>
+                 <button class="option" question="2">James Garfield</button>
+                 <button class="option" question="2">Zachary Taylor</button>
+                 <button class="option" question="2">John F. Kennedy</button>
+                 <p class="check_answer" question="2"></p>
+            </div>
+
+            <div class="section" question="3">
+                <h2>Part 3: Multiple Choice</h2>
+                <hr>
+                <h3>What is the capital of Canada?</h3>
+                <button class="option" question="3">Toronto</button>
+                <button class="option" question="3">Vancouver</button>
+                <button class="option" question="3" id="answer_3">Ottawa</button>
+                <button class="option" question="3">Montreal</button>
+                <p class="check_answer" question="3"></p>
+            </div>
+
+            <div class="section" question="4">
+                <h2>Part 4: Multiple Choice</h2>
+                <hr>
+                <h3>What is the highest-grossing film of all time?</h3>
+                <button class="option" question="4">Avengers: Endgame</button>
+                <button class="option" question="4" id="answer_4">Avatar</button>
+                <button class="option" question="4">Titanic</button>
+                <button class="option" question="4">Star Wars: The Force Awakens</button>
+                <p class="check_answer" question="4"></p>
+            </div>
+
+            <div class="section" question="5">
+                <h2>Part 5: Multiple Choice</h2>
+                <hr>
+                <h3>Who developed the theory of general activity?</h3>
+                <button class="option" question="5">Isaac Newton</button>
+                <button class="option" question="5" id="answer_5">Albert Einstein</button>
+                <button class="option" question="5">Nikola Tesla</button>
+                <button class="option" question="5">Stephen Hawking</button>
+                <p class="check_answer" question="5"></p>
+            </div>
+
+            <div class="section" question="6">
+                <h2>Part 6: Identification</h2>
+                <hr>
+                <h3>What does "HTTP" stand for in a website URL?</h3>
+                <form class="free_response" question="6">
+                    <input autocomplete="off"
+                           answer="hypertext transfer protocol"
+                           class="response_answer"
+                           type="text"
+                           placeholder="World Wide Web"
+                           question="6"
+                           required>
+                    <p class="check_answer" question="6"></p>
+                </form>
+            </div>
+            
+            <div class="section" question="7">
+                <h2>Part 7: Identification</h2>
+                <hr>
+                <h3>Who painted the Mona Lisa?</h3>
+                <form class="free_response" question="7">
+                    <input autocomplete="off"
+                           answer="leonardo da vinci"
+                           class="response_answer"
+                           type="text"
+                           placeholder="Albert Einstein"
+                           question="7"
+                           required>
+                    <p class="check_answer" question="7"></p>
+                </form>
+            </div>
+
+            <div class="section" question="8">
+                <h2>Part 8: Identification</h2>
+                <hr>
+                <h3>What is the hardest natural substance on Earth?</h3>
+                <form class="free_response" question="8">
+                    <input autocomplete="off"
+                           answer="diamond"
+                           class="response_answer"
+                           type="text"
+                           placeholder="Emerald"
+                           question="8"
+                           required>
+                    <p class="check_answer" question="8"></p>
+                </form>
+            </div>
+
+            <div class="section" question="9">
+                <h2>Part 9: Identification</h2>
+                <hr>
+                <h3>Which gas do plants primarily use for photosynthesis?</h3>
+                <form class="free_response" question="9">
+                    <input autocomplete="off"
+                           answer="carbon dioxide"
+                           class="response_answer"
+                           type="text"
+                           placeholder="Helium"
+                           question="9"
+                           required>
+                    <p class="check_answer" question="9"></p>
+                </form>
+            </div>
+
+            <div class="section" question="10">
+                <h2>Part 10: Identification</h2>
+                <hr>
+                <h3>What is the largest ocean on Earth?</h3>
+                <form class="free_response" question="10">
+                    <input autocomplete="off"
+                           answer="pacific ocean"
+                           class="response_answer"
+                           type="text"
+                           placeholder="Antartica"
+                           question="10"
+                           required>
+                    <p class="check_answer" question="10"></p>
+                    <button type="button" id="submit_answer">Submit Quiz</button>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
