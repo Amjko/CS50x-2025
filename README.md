@@ -20,8 +20,11 @@
 > - Notes related to solving problem set.
 > - Notes related to introduced concept/code/syntax by CS50 related to that week's programming language.
 > 2. Many, if not, all of the C files do not work due to the inclusion of CS50 header, which is not a standard library provided by C compiler.
-> 3. 
-## 💾 Installation
+> 3. I will not accept any requests in updating C files, unless I feel like improving the code.
+
+## 💾 Installation  
 Clone this repo:  
 ```sh
 git clone https://github.com/Amjko/CS50x-2025.git
+
+# test
