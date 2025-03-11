@@ -1,0 +1,25 @@
+sort1 uses: Selection Sort
+
+How do you know?: sorted random50000 - 4s 518ms
+                  sorted reversed50000 - 5s 564ms
+                  sorted sorted50000 - 165ms
+                  : It's efficiency is determined whether they're sorted or not. It's worse case scenario is that the integers
+                  are sorted in reverse. It also took quite awhile to sort random orders of 50 thousand integers. Therefore it
+                  is Selection sort compared to other sorts.
+
+sort2 uses: Merge Sort
+
+How do you know?: sorted random50000 - 117ms
+                  sorted reversed50000 - 111ms
+                  sorted sorted50000 - 105ms
+                  : It's clearly obvious as to which sorting algorithm is Merge Sort due to how fast and efficient it sorts
+                  integers regardless of their order. At least in comparison to Selection and Bubble Sort.
+
+sort3 uses: Bubble Sort
+
+How do you know?: sorted random50000 - 1s 72m
+                  sorted reversed50000 - 1s 62ms
+                  sorted sorted50000 - 1s 98ms
+                  : It's efficiency of sorting integers does not change regardless of the order of integers because I believe
+                  it does not check if it has not sorted anything and then end sooner. But it's still slow in comparison to
+                  sort2.

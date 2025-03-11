@@ -1,0 +1,108 @@
+bool check(const char *word)
+{
+    /**
+     * Notes
+     * -----
+     * Words must be case-insensitive
+     * Possessive words exists as is in dictionary
+     */
+
+     /**
+      * PSEUDOCODE
+      * ----------
+      * get hash_index from hash(word)
+      * if hash_index is 0
+      *     return false
+      * 
+      * create curr_ptr and set to table of hash_index
+      * while (compare(word to curr_ptr->word) isn't 0 AND curr_ptr->next isn't NULL)
+      *     set curr_ptr to curr_ptr->next
+      * 
+      * if compare(word to curr_ptr->word) is exact
+      *     return true;
+      */
+}
+
+unsigned int hash(const char *word)
+{
+    // TODO
+    /**
+     * Purpose
+     * -------
+     * Return a two-digit int of AA -> ZZ
+     */
+
+    /**
+      * PSEUDOCODE
+      * ----------
+      * create unsigned int hash_index
+      * get word_length from strlen
+      * 
+      * CASE 1: If word_length is 1 and neither '\0' nor '\''
+      * if word_length is 1 and neither '\0' nor '\''
+      *     hash_index = (uppercase(word of 0th) - 'A') * 26
+      * 
+      * CASE 2: If word_length is greater than 1 letter
+      * else if word_length is greater than 1
+      *     hash_index = ((uppercase(word of 0th) - 'A') * 26) + (uppercase(word of 1th) - 'A') 
+      * 
+     */
+}
+
+bool load(const char *dictionary)
+{
+    // TODO
+    /**
+      * PSEUDOCODE
+      * ----------
+      * open dictionary file
+      * 
+      * int index
+      * char * array of characters = "word"
+      * 
+      * buffer char = "letter"
+      * while (reading 1 char each iteration)
+      *     if (alpha OR (apostrophe AND index greater than 0))
+      *         append letter to word
+      *         iterate index++
+      *         
+      *         if index too long
+      *             while (fread(to letter, 1 char each iteration) && letter is alpha)
+      *             reset index
+      * 
+      *     else if "letters" are numbers
+      *         while (reading 1 char each iteration AND letter is alnum)
+      *         reset index
+      *     
+      *     else if index is greater than 0
+      *         append "\0" to word
+      *         create a node
+      *         copy word to node->word
+      *         point node->next to NULL
+      *         get hash_index from hash()
+      * 
+      *         if table of hash_index is NULL
+      *             set table of hash_index to node
+      *         
+      *         else
+      *             create curr_ptr and assign table of hash_index
+      *             create prev_ptr and assign NULL
+      *             compare node->word to table->word
+      *             
+      *             if node->word goes before table->word
+      *                 set node->next to table of hash_index
+      *                 set table of hash_index to node      
+      * 
+      *             else if node->word goes after table->word
+      *                 while (ptr_curr isn't NULL AND node->word goes after ptr_curr->word)
+      *                     set prev_ptr to ptr_curr
+      *                     ptr_curr to ptr_curr->next
+      * 
+      *                 set prev_ptr->next = new_node
+      *                 set new_node->next = ptr_curr
+      * 
+      *             else 
+      *                 free node's malloc
+     */
+}
+
