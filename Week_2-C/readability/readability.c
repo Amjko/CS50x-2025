@@ -1,5 +1,18 @@
-//* Prompt user for a sequence of words, sentences, or paragraphs.
-//* Calculate to determine approximate grade level comprehends the text.
+/**
+ * readability.c -> Determine reading comprehension
+ * Creation:        January 07, 2025
+ * 
+ * Purpose: Query user of sentences or paragraphs to
+ *          determine the approximate grade level of
+ *          the reading comprehension of the text.
+ * 
+ * Usage: ./readability
+ * 
+ * Output: 
+ *         Text: One fish. Two fish. Red fish. Blue fish.
+ *         Before Grade 1
+ */
+
 #include <cs50.h>
 #include <ctype.h>
 #include <math.h>
@@ -21,7 +34,7 @@ int coleman_liau_index(float avg_letters, float avg_sentences);
 int main(void)
 {
     // Prompt user for text
-    char *text = get_string("Text: ");
+    char *text = get_string("Text: ");      // cs50.h function
 
     // Get text's length
     int text_length = strlen(text);
