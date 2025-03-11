@@ -9,7 +9,7 @@
 ## 📌 About
  My solutions and projects from **CS50x 2025 – Harvard's Introduction to Computer Science.** Includes problem sets, final projects, and coding exercises mostly in C, Python, SQLite, and more. 
 
-## CS50x 2025
+## 🚀 CS50x 2025
  [**CS50x**](https://cs50.harvard.edu/x/2025/) is Harvard University’s Introduction to Computer Science, a free online course available on [**edX**](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science). It is designed for beginners with no prior coding experience and covers fundamental programming and computer science concepts.
 
 ## 🚀 Features
