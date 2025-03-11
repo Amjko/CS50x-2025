@@ -1,5 +1,22 @@
-//* Include in command-line argument the key for substitution shift
-//* Prompt user for the message to encrypt
+/**
+ * substitution.c -> Encrypt text with a key
+ * Creation:         January 07, 2025
+ * 
+ * Purpose: Prompts the user for sequence of characters
+ *          to encrypt with <key> to determine which letter
+ *          to switch place with which.
+ * 
+ * Note:    Include in command-line argument the key 
+ *          for substitution shift.
+ * 
+ * Usage: ./substitution key
+ * 
+ * Output: 
+ *         ./substitution YTNSHKVEFXRBAUQZCLWDMIPGJO
+ *         plaintext:  Hello!
+ *         ciphertext: Ehbbq!
+ */
+
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
@@ -59,7 +76,7 @@ int main(int argc, char *argv[])
 
 
     // Prompt user for plaintext
-    char *text = get_string("plaintext: ");
+    char *text = get_string("plaintext: ");     // cs50.h function
     char *cipher_text = text;
 
     //* Shift letters according to key
