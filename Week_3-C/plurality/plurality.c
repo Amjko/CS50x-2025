@@ -1,3 +1,25 @@
+/**
+ * plurality.c -> Determine winner of candidacy
+ * Creation:      January 09, 2025
+ * 
+ * Purpose: Prompts the user for names of running candidates
+ *          then calculate the winner of who has the most
+ *          votes.
+ * 
+ * Note:    Include in command-line argument the names of
+ *          the candidates.
+ * 
+ * Usage: ./plurality name1 name2 name3
+ * 
+ * Output: 
+ *         ./plurality Alice Bob Charlie 
+ *         Number of voters: 3
+ *         Vote: Alice
+ *         Vote: Alice
+ *         Vote: Bob
+ *         Alice
+ */
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -44,12 +66,12 @@ int main(int argc, char *argv[])
         candidates[i].votes = 0;
     }
 
-    int voter_count = get_int("Number of voters: ");
+    int voter_count = get_int("Number of voters: ");        // cs50.h function
 
     // Loop over all voters
     for (int i = 0; i < voter_count; i++)
     {
-        char *name = get_string("Vote: ");
+        char *name = get_string("Vote: ");                  // cs50.h function
 
         // Check for invalid vote
         if (!vote(name))
