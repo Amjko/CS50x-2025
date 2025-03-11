@@ -1,4 +1,31 @@
-// Implements a dictionary's functionality
+/**
+ * speller.c -> Implements a dictionary's functionality
+ * Creation:   January 15, 2025
+ * 
+ * Purpose: To print out statistics of how many words,
+ *          misspells, etc. in the selected text file.
+ * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/5/speller/
+ * 
+ * Note:    Include in command-line argument the filename
+ *          of dictionary and filename of text to check.
+ * 
+ * Usage: ./speller dictionary_file text_file
+ * 
+ * Output: 
+ *        ./speller dictionaries/large texts/grimm.txt 
+ *        
+ *        [words]
+ * 
+ *         WORDS MISSPELLED:     718
+ *         WORDS IN DICTIONARY:  143091
+ *         WORDS IN TEXT:        103614
+ *         TIME IN load:         0.05
+ *         TIME IN check:        0.09
+ *         TIME IN size:         0.00
+ *         TIME IN unload:       0.01
+ *         TIME IN TOTAL:        0.15
+ */
 
 #include <ctype.h>
 #include <stdbool.h>
