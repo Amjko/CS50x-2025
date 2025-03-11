@@ -1,4 +1,22 @@
-//* Modifies the volume of an audio file
+/**
+ * volume.c -> Modifies the volume of an audio file
+ * Creation:   January 15, 2025
+ * 
+ * Purpose: Modifies the volume of selected .wav file
+ *          depending on the value of the factor.
+ * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/4/volume/
+ * 
+ * Note:    Include in command-line argument the filename
+ *          of input file, filename of output file, and
+ *          float number to how much adjust in volume.
+ * 
+ * Usage: ./volume input_file output_file factor
+ * 
+ * Output: 
+ *        ./volume input.wav output.wav 2.0 
+ */
+
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>

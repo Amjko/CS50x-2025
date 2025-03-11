@@ -1,3 +1,20 @@
+/**
+ * filter.c -> Adds a filter to image
+ * Creation:   January 21, 2025
+ * 
+ * Purpose: Adds a filter to selected image
+ * 
+ * Problem Source: https://cs50.harvard.edu/x/2025/psets/4/filter/less/
+ * 
+ * Note:    Include in command-line argument the type of filter,
+ *          filename of input file, and filename of output file.
+ * 
+ * Usage: ./filter -filter input_file output_file
+ * 
+ * Output: 
+ *        ./filter -g ./images/courtyard.bmp ./images/courtyard-grayscale.bmp 
+ */
+
 #include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
