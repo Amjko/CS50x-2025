@@ -11,7 +11,7 @@
 
  Moreover, if you are an enrolled student at **CS50x 2025** and not yet have finished the course, **DO NOT** open directories of `Week_#-Language`, for these contains files that have completed the problem sets provided by CS50x.
 
- More on 🔗[CS50x 2023 Academic Honesty][https://cs50.harvard.edu/x/2023/honesty/].
+ More on 🔗[CS50x 2023 Academic Honesty](https://cs50.harvard.edu/x/2023/honesty/).
 
 ## 📝 Note
 > 1. All folders with the name `Tests` either consist of (or consist of multiple):
