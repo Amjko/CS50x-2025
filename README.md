@@ -2,7 +2,7 @@
  - [About](#-about)
  - [CS50x](#-cs50x-2025)
  - [Features](#-features)
- - [Disclaimer](#-disclaimer)
+ - [Disclaimer](#%EF%B8%8F-disclaimer)
  - [Notes](#-note)
  - [Installation](#-installation)
 
