@@ -1,6 +1,6 @@
 /**
  * mario_more.c -> Pyramid hashtag program
- * Creation:       January 07, 2025
+ * Creation:       January 03, 2025
  * 
  * Purpose: Prompts the user for desired height of a pyramid
  *          to be printed in terminal with hashtags.
