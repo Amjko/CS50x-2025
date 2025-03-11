@@ -2,9 +2,9 @@
 /**
  * recover.c -> JPEG Recovery Tool
  * Version:     1.1
- * Created:     02-05-2025
+ * Created:     February 05, 2025
  *
- * Creator:     Amjko2234
+ * Creator:     Amjko
  *
  * Purpose: Recovers deleted JPEG files from a camera's memory card
  *          by scanning for JPEG signatures in the raw data.
