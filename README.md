@@ -12,7 +12,7 @@
 ## 🚀 CS50x 2025
  [**CS50x**](https://cs50.harvard.edu/x/2025/) is Harvard University’s Introduction to Computer Science, a free online course available on [**edX**](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science). It is designed for beginners with no prior coding experience and covers fundamental programming and computer science concepts.
 
-## 🚀 Features
+## 🔧 Features
 - Problem Sets Provided by CS50x
 - Solutions to Problem Sets
 - Learning Notes
