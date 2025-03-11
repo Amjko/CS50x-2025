@@ -1,5 +1,10 @@
-# 📌 CS50x 2025
+## 📃 Table of Contents
+ -[About][#-about]
+
+## 📌 About
  My solutions and projects from [**CS50x 2025 – Harvard's Introduction to Computer Science.**](https://cs50.harvard.edu/x/2025/) Includes problem sets, final projects, and coding exercises mostly in C, Python, SQLite, and more.
+
+## CS50x 2025
 
 ## 🚀 Features
 - Problem Sets Provided by CS50x
@@ -26,5 +31,6 @@
 Clone this repo:  
 ```sh
 git clone https://github.com/Amjko/CS50x-2025.git
+```
 
-# test
+### 
